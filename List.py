@@ -1,3 +1,4 @@
 List = ["To Do List: ", ]
-List.append(input())
-print(List)
+with open('To_Do_List.txt', 'w') as f:
+ f.write(List + List.append(input())
+         
