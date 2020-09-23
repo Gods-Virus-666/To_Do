@@ -11,5 +11,5 @@ if response == 2:
   with open('To_Do_List.txt', 'a') as f:
    f.write(input("What would you like to add to your list?"))
    print(f.read())
-   f.close
+   f.close()
     
