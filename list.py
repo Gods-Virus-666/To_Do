@@ -1,3 +1,6 @@
+with open('To_Do_List.txt', 'r') as f:
+  f.write(" ")
+  
 print("Press 1 to view list or Press 2 to add to the list?")
 response=input("Enter 1 or 2; ")
 with open('To_Do_List.txt', 'r') as f:
