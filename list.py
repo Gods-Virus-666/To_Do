@@ -1,4 +1,4 @@
-with open('To_Do_List.txt', 'r') as f:
+with open('To_Do_List.txt', 'w') as f:
   f.write(" ")
   
 print("Press 1 to view list or Press 2 to add to the list?")
