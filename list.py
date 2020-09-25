@@ -14,4 +14,3 @@ else:
       f.write(input("What would you like to add to your list?"))
       print(f.read())
       f.close()
-    
