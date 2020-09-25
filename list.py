@@ -8,9 +8,10 @@ if response == 1:
     with open('To_Do_List.txt', 'r') as f:
       print(f.read())
       f.close()
- else response == 2: 
-  with open('To_Do_List.txt', 'a') as f:
-    f.write(input("What would you like to add to your list?"))
-    print(f.read())
-    f.close()
+ else: 
+  if response == 2:
+    with open('To_Do_List.txt', 'a') as f:
+      f.write(input("What would you like to add to your list?"))
+      print(f.read())
+      f.close()
     
